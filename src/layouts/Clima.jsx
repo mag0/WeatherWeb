@@ -51,7 +51,7 @@ const Clima = () => {
 
   return (
     <div className="constainer text-center mb-10 mt-10">
-      <Buscador setCiudad={setCiudad}></Buscador>
+      <Buscador setCiudad={setCiudad} idioma={idioma}></Buscador>
       {error ? (
         <h1 className="mb-10 text-4xl font-extrabold text-red-600">
           {error}
